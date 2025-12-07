@@ -3,10 +3,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 import java.util.stream.Stream;
-import java.util.Optional;
 import java.io.UncheckedIOException;
-import java.util.function.Function;
-import java.util.regex.Pattern;
 
 public class Main {
     private static Stream<String> getData() {
